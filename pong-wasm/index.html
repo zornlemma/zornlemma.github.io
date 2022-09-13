@@ -1,0 +1,22 @@
+<html>
+<head>
+  <base href="/pong-wasm/">
+  <title>Javascript Pong</title>
+  <script src="pong.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var Module = {
+      onRuntimeInitialized: function() {
+        console.log('Module loaded: ', Module);
+      }
+    }
+  </script>
+  <script src="pong_wasm.js" type="text/javascript"></script>
+</head>
+<body style="text-align:center">
+  <div id="header">
+    Your data will be stored with your name in your browser's local IndexedDB
+  </div>
+  <input id="name" placeholder="Enter Name"/>
+  <button id="btn" type="submit" onclick="buttonClick();">Start!</button>
+</body>
+</html>
