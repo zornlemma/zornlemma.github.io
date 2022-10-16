@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.layout-containter {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+ul {
+  list-style: none;
+  padding: 2rem;
+  margin: 0;
+
+  border-radius: 1rem;
+  background: #eeeeee;
+  box-shadow: 5px 5px 10px #d1d1d1,
+    -5px -5px 10px #ffffff;
+}
+
+li {
+  list-style: none;
+  padding: 2rem 2rem;
+  margin: 2rem;
+
+  border-radius: 1rem;
+  box-shadow:  5px 5px 10px #dbdbdb,
+  -5px -5px 10px #ffffff;
+}
